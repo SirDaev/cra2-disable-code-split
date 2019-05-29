@@ -16,6 +16,8 @@ yarn add rewire
 ## 2. Create a file `scripts/build-non-split.js`
 For this example we have created a folder `scripts` in the root of our React app, and placed the `build-non-split.js` file inside it. See `scripts/build-non-split.js` in this repo.
 
+[scripts/build-non-split.js](https://github.com/SirDaev/cra2-disable-code-split/blob/master/scripts/build-non-split.js "scripts/build-non-split.js")
+
 **Note:** the `cacheBust` parameter will be added to the file references in `index.html`, but is removed from the actual file names.
 
 ## 3. Modify package.json
