@@ -37,3 +37,6 @@ The next time you perform a build you should see a single CSS file and a single 
 
 ## Credit
 Much of this example was derived from the discussion for Create React App [issue 5306](https://github.com/facebook/create-react-app/issues/5306 "Create React App issue 5306"), specifically comments by [vonkanehoffen](https://github.com/facebook/create-react-app/issues/5306#issuecomment-433425838 "vonkanehoffen"), [jw-afc](https://github.com/facebook/create-react-app/issues/5306#issuecomment-440945317 "jw-afc"), and [illepic](https://github.com/facebook/create-react-app/issues/5306#issuecomment-447948123 "illepic").
+
+## License
+MIT License
