@@ -1,4 +1,4 @@
-# Disable Code Splitting with Cache Busting in Create React App 2
+# Disable Code Splitting in Create React App 2 & Add Cache Busting
 
 ## 1. Install 'rewire' as a dependency
 [Rewire](https://github.com/jhnns/rewire "Rewire") will allow us to override certain variables and values in the configuration.
