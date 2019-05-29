@@ -1,5 +1,7 @@
 # Disable Code Splitting in Create React App 2 & Add Cache Busting
 
+This example demonstrates disabling code splitting when building an app created with Create React App 2. The build will output a single CSS file and a single JS file. A simple cache-busting parameter is automatically added to the file references within index.html.
+
 ## 1. Install 'rewire' as a dependency
 [Rewire](https://github.com/jhnns/rewire "Rewire") will allow us to override certain variables and values in the configuration.
 ### npm
