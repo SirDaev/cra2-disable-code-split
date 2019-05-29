@@ -30,11 +30,13 @@ config.optimization.splitChunks = {
     default: false,
   },
 };
+
 // Move runtime into bundle instead of separate file
 config.optimization.runtimeChunk = false;
 
 // JS
 config.output.filename = 'static/js/'+newName+'.js'+cacheBust;
+
 // CSS. "5" is MiniCssPlugin
 config.plugins[5].options.filename = 'static/css/'+newName+'.css'+cacheBust;
 ~~~~
