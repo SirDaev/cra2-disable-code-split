@@ -6,7 +6,7 @@ const config = defaults.__get__('config');
 const newName = "app";
 
 // Random number for cache busting
-const cacheBust = '?cb='+Math.floor(Math.random() * 1000000) + 1 ;
+const cacheBust = '?cb='+(Math.floor(Math.random() * 1000000) + 1);
 
 // Consolidate chunk files instead
 config.optimization.splitChunks = {
