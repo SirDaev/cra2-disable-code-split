@@ -1,4 +1,4 @@
-const rewire = require('rewire');
+import rewire from 'rewire';
 const defaults = rewire('react-scripts/scripts/build.js');
 const config = defaults.__get__('config');
 
