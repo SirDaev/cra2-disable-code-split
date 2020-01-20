@@ -22,4 +22,4 @@ config.optimization.runtimeChunk = false;
 config.output.filename = 'static/js/'+newName+'.js'+cacheBust;
 
 // CSS. "5" is MiniCssPlugin
-config.plugins[5].options.filename = 'static/css/'+newName+'.css'+cacheBust;
+config.plugins[5].options.moduleFilename = () => 'static/css/'+newName+'.css'+cacheBust;
